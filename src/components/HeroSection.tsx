@@ -47,8 +47,12 @@ export default function HeroSection() {
           <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto">
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary via-accent to-neon animate-spin-slow" />
             <div className="absolute inset-1 rounded-full bg-background" />
-            <div className="absolute inset-2 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-              <span className="text-4xl md:text-5xl font-bold gradient-text">SD</span>
+            <div className="absolute inset-2 rounded-full overflow-hidden">
+              <img 
+                src="/image.png" 
+                alt="Sumi Debnath" 
+                className="w-full h-full object-cover rounded-full"
+              />
             </div>
           </div>
         </motion.div>
